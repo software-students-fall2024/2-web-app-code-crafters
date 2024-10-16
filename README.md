@@ -81,8 +81,14 @@ Note: You need to replace `<username>`, `<password>`, and myDatabase with your M
 
 ### Run the App
 To start the Flask application, run the command in your terminal:
+on Mac:
 ```bash
 python3 app.py
+```
+
+on Windows:
+```bash
+py app.py
 ```
 
 If you see an error about the port number being already in use, change the first `5000` in the command to a different port number, e.g. `-p 10000:5000` to use your computer's port `10000`.
