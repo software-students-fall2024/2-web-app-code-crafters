@@ -31,6 +31,7 @@ Navigate to your project directory using the `cd` command.
 
 #### 2. Set up virtual environment
 And you can create a virtual environment for the app with the command,
+
 on Mac:
 
 ```bash
@@ -43,13 +44,13 @@ py -m venv .venv
 
 To activate the virtual environment named `.venv`...
 
-On Mac:
+on Mac:
 
 ```bash
 source .venv/bin/activate
 ```
 
-On Windows:
+on Windows:
 
 ```bash
 .venv\Scripts\activate.bat
