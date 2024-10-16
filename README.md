@@ -31,9 +31,16 @@ Navigate to your project directory using the `cd` command.
 
 #### 2. Set up virtual environment
 And you can create a virtual environment for the app with the command,
+on Mac:
+
 ```bash
 python3 -m venv .venv
 ```
+on Windows:
+```bash
+py -m venv .venv
+```
+
 To activate the virtual environment named `.venv`...
 
 On Mac:
@@ -51,8 +58,14 @@ On Windows:
 #### 3. Install dependencies
 The `pip` settings file named, `requirements.txt` contains a list of dependencies - other Python modules that this app depends upon to run. Install all required Python dependencies using `pip3`:
 
+on Mac:
 ```bash
 pip3 install -r requirements.txt
+```
+
+on Windows:
+```bash
+pip install -r requirements.txt
 ```
 
 #### 4. create a `.env` file
@@ -81,5 +94,7 @@ open a web browser and go to `http://localhost:5000` (or change `5000` to whatev
 ## Task boards
 
 [Task Boards](https://github.com/software-students-fall2024/2-web-app-code-crafters/projects?query=is%3Aopen)
+
 [Sprint 1 Task Boards](https://github.com/orgs/software-students-fall2024/projects/34)
+
 [Sprint 2 Task Boards](https://github.com/orgs/software-students-fall2024/projects/82)
