@@ -32,7 +32,7 @@ Navigate to your project directory using the `cd` command.
 #### 2. Set up virtual environment
 And you can create a virtual environment for the app with the command,
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 To activate the virtual environment named `.venv`...
 
