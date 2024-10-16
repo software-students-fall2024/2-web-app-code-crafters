@@ -82,6 +82,7 @@ Note: You need to replace `<username>`, `<password>`, and myDatabase with your M
 
 ### Run the App
 To start the Flask application, run the command in your terminal:
+
 on Mac:
 ```bash
 python3 app.py
